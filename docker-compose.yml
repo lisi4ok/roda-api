@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  redis:
+    container_name: roda_redis_container
+    image: redis:alpine
+    restart: always
+    env_file: .env
+    ports:
+      - "${REDIS_HOST}:${REDIS_PORT}:${REDIS_PORT}"

@@ -36,7 +36,7 @@ GEM
     pry-byebug (3.10.1)
       byebug (~> 11.0)
       pry (>= 0.13, < 0.15)
-    rack (2.2.8)
+    rack (2.2.11)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     redis (5.0.7)
@@ -72,6 +72,7 @@ GEM
       concurrent-ruby (~> 1.0)
 
 PLATFORMS
+  ruby
   x86_64-linux
 
 DEPENDENCIES
@@ -79,7 +80,7 @@ DEPENDENCIES
   dotenv (~> 2.8.1)
   factory_bot (~> 6.2)
   pry-byebug (~> 3.10.1)
-  rack (~> 2.2.8)
+  rack (~> 2.2.11)
   redis (~> 5.0.7)
   roda (~> 3.72.0)
   rspec-roda (~> 0.2.2)
